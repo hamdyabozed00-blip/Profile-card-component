@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body {
+    display: flex;
+    justify-content: center;
+    background-color:#19a2ae;
+}
+.personal-card {
+    margin-top: 200px;
+    width: 350px;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px ;
+    
+
+}
+.bottom .information {
+    margin:80px 0 0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    
+
+}
+.bottom .information .name {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #6b6b6c;
+    margin-bottom: 15px;
+}
+.bottom .information .city {
+    color: rgb(116, 115, 115);
+    font-family: Arial, Helvetica, sans-serif;
+ 
+
+}
+.bottom .hr {
+    background-color: #969697;
+    width: 100%;
+    height: 1px;
+}
+.bottom .number  {
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+.bottom .number .number1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+} 
+.bottom .number .number1 .number-k {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.bottom .number .number1 .discribe {
+    font-size: 12px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.personal-card .top {
+    background: url(bg-pattern-card.svg);
+    width: 100%;
+    height: 120px;
+    border-radius: 20px 20px 0 0;
+}
+.personal-card .top img{
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+   position: relative;
+   top: 70px;
+   left: 130px;
+   border: 5px solid white;
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
